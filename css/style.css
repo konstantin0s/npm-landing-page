@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 
-html, body {
+ body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -250,12 +250,13 @@ height: 38px;
   top:850px;
   margin: 470px 0 0 0;
   overflow: none;
+  width: 100%;
   }
   
   .install {
   float: left;
   margin: 100px 0 0 320px;
-  width: 300px;
+/*   width: 300px; */
   color: #ffffff;
   }
 
@@ -292,5 +293,18 @@ height: 38px;
 
   .install p {
     font-size: 21px;
-  margin: 35px 0 15px 35px;
+    margin: 35px 0 15px 35px;
+  }
+  
+  .bottom {
+    position: relative;
+    background-color: red;
+    color:#87919c;
+    height: 550px;
+    margin: 1184px 0 0 0;
+  }
+
+  #registry {
+    padding: 80px 440px 0;
+    width: 100%;
   }
