@@ -180,8 +180,8 @@ height: 38px;
 }
 
 .collaboration {
-  position: absolute;
-  top: 730px;
+  position: relative;
+  top: 684px;
   height: 580px;
   margin: 0 auto;
     background-color: rgb(39, 53, 71);
@@ -239,3 +239,18 @@ height: 38px;
   transition: 0.5s;
   background-color: #FF4621;
  }
+
+ #npm-install {
+  position: absolute;
+  background-image: url("images/collaboration.svg");
+  height: 500px;
+  width: 100%;
+  top:1200px;
+  margin: 470px 0 0 0;
+  }
+  
+  .install {
+  float: left;
+  margin: 100px 0 0 250px;
+  width: 300px;
+  }
