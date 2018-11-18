@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-size: 15px;
@@ -49,7 +54,7 @@ nav a {
   color: #ffffff;
   background: rgb(32, 101, 136);
   position: absolute;
-  height: 85%;
+  /* height: 85%; */
   padding: 0px 5px 0;
   width: 100%;
   margin: 0px;
@@ -76,7 +81,7 @@ nav a {
 }
 
 .city-scape {
-  height: 100%;
+  height: 85%;
   background-image: url("https://svgshare.com/i/7jX.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +91,7 @@ nav a {
 
 .top-logo {
   /* height: 20px; */
-  width: 100%; 
+  width: 100px;
   position: relative;
   top: 50px;
   left: 20px;
@@ -169,8 +174,68 @@ height: 38px;
   transition: 0.5s;
   background-color: #FF9A33;
 }
-}
 
 .clearfix {
   clear: both;
 }
+
+.collaboration {
+  position: absolute;
+  top: 730px;
+  height: 580px;
+  margin: 0 auto;
+    background-color: rgb(39, 53, 71);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.coll-logo {
+  width:600px;
+  margin: 10em 2em 0em 24em;
+ 
+ }
+ 
+ .npm-org {
+   color: #FFFFFF;
+   float: right;
+   margin: 8em 12em 0 0;
+ }
+
+ .npm-org h1 {
+  font-size: 40px;
+  font-family: Arial;
+  margin: 0 0 2em 0;
+ }
+
+ .npm-org ul > li, p {
+  font-size: 20px;
+  /* margin: 0 0 2em 0; */
+ }
+
+ .install-npm {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+  background-color: rgb(203, 56, 55);
+  display: inline-block;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 6px;
+  width: 30%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ }
+
+ .install-npm:hover {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  background-color: #FF4621;
+ }
