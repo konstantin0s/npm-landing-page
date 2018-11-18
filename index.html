@@ -22,27 +22,32 @@
           <li><a href="#">documentation</a></li>
           <li><a href="#">support</a></li>
         </ul>
+        <div class="clearfix"></div>
       </nav>
 
  <!--Header-->
-<header>
+<header class="header">
  <!--city scape svg image - add with css-->
- <div class="searchbar">
-  
-<form action="/search" id="search">
-  <input type="text" placeholder="find packages">
-  <input type="button" value="Search">
+ <div class="city-scape">
+   <div class="top-logo">
+     <img src="images/npm-logo.png" class="npm-logo" alt="Npm logo">
+  <input type="text" class="search-bar" placeholder="find packages">
+  <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
   <a href="#">sign up</a> or <a href="#">login</a>
-  <img src="images/bear-logo.png" alt="">
-</form>
+  <img class="bear-logo" src="images/bear-logo.png" alt="Bear logo">
  </div>
  <div class="textbutton">
-   <img src="images/city-scape.svg" alt="">
+
 <h1>Build amazing things</h1>
   <p>npm is the package manager for Javascript and worlds largest <br>
   sofware registry. Discover packages of reusable code -- and <br>
 assemble them in the powerfull new ways.</p>
-<input type="button" value="Sign up for npm">
+<input type="button" class="sign-up" value="Sign up for npm">
+<img src="images/binoculars.svg" alt="">
+</div>
+<div class="clearfix"></div>
+ </div>
+ <div class="clearfix"></div>
 </div>
 </header>
 
@@ -101,5 +106,7 @@ blocks to quickly develop <br>
 awesome new projects.</p>
   </div>
 </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
 </html>
