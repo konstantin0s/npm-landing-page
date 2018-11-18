@@ -67,29 +67,65 @@ nav a {
 .top-logo {
   /* height: 20px; */
   width: 100%; 
-  margin: 20px 10px 20px 20px;
-  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  display: inline;
+  margin: 250px 20px 50px 20px;
 
 }
 
 .npm-logo {
   height: 35px;
   position: relative;
-  top: -40px;
+  top: -30px;
   margin-right: 20px;
 }
 
 .search-bar {
- width: 65%;
- height:30px;
+ width: 76%;
+ height: 30px;
   position: relative;
-  top: -55px;
-  margin-right: 20px;
+  top: -45px;
+  margin-right: 0px;
   background-color: rgb(31, 82, 111);
   padding-left: 14px;
+  color: #ffffff;
 }
 
-.sign-up {
+.search-btn {
+  position: relative;
+  top: -44px;
+  width: 45px;
+  cursor: pointer;
+
+border: 1px solid rgb(52, 121, 156);
+border-left: none;
+background-color: rgb(39, 82, 107);
+color:  rgba(255,255,255,0.8);
+padding: 4px 8px;
+/* margin: 10px 0 0; */
+height: 38px;
+}
+
+.top-link {
+ text-decoration: none;
+ color: #ffffff;
+ margin:0 10px 0 20px;
+ position: relative;
+ top: -45px;
+ left: 10px;
+ font-size: 16px;
+}
+
+.bear-logo {
+  height: 45px;
+  position: relative;
+  top: -30px;
+  margin-left: 5px;
+}
+
+.sign-up { /* button */
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
