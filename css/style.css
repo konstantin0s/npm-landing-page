@@ -48,20 +48,40 @@ nav a {
 .header {
   color: #ffffff;
   background: rgb(32, 101, 136);
+  position: absolute;
+  height: 85%;
+  padding: 0px 5px 0;
+  width: 100%;
+  margin: 0px;
 }
 
 .textbutton {
-  width: 60%;
-  height: 250px;
-  margin: 0 auto; 
+  width: 34%;
+  margin: 10em 5em 5em 25em; 
+}
+
+.textbutton h1 {
+  font-size: 50px;
+  font-family: Arial;
+  margin: 0 0 2em 0;
+}
+
+.textbutton p {
+  font-size: 25px;
+  margin: 0 0 2em 0;
+}
+
+.textbutton h1, .sign-up {
+  margin-top: 100px;
 }
 
 .city-scape {
+  height: 100%;
   background-image: url("https://svgshare.com/i/7jX.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: -3px;
-  height: 100%;
+  
 }
 
 .top-logo {
@@ -134,7 +154,7 @@ height: 38px;
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   padding: 6px;
   width: 24%;
   transition: all 0.5s;
