@@ -64,6 +64,31 @@ nav a {
   height: 100%;
 }
 
+.top-logo {
+  /* height: 20px; */
+  width: 100%; 
+  margin: 20px 10px 20px 20px;
+  display: inline-block;
+
+}
+
+.npm-logo {
+  height: 35px;
+  position: relative;
+  top: -40px;
+  margin-right: 20px;
+}
+
+.search-bar {
+ width: 65%;
+ height:30px;
+  position: relative;
+  top: -55px;
+  margin-right: 20px;
+  background-color: rgb(31, 82, 111);
+  padding-left: 14px;
+}
+
 .sign-up {
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
