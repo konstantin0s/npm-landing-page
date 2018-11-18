@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 
- body {
+ /* body {
   max-width: 100%;
   overflow-x: hidden;
-}
+} */
 
 body {
   margin: 0;
   font-size: 15px;
   padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
 }
 
@@ -298,7 +300,7 @@ height: 38px;
   
   .bottom {
     position: relative;
-    background-color: red;
+    background-color: #ffffff;
     color:#87919c;
     height: 550px;
     margin: 1184px 0 0 0;
@@ -308,3 +310,288 @@ height: 38px;
     padding: 80px 440px 0;
     width: 100%;
   }
+
+  #registry h1 {
+    width: 0 auto;
+    margin: 0 0 5px 80px;
+    color: rgb(83, 88, 98);
+    font-size: 40px;
+  }
+
+  #registry p {
+     color: rgb(135, 145, 156);
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-container > div {
+    width: 33%;
+    /* margin: 1px; */
+    text-align: center;
+    line-height: 35px;
+    font-size: 40px;
+    margin: 2em 0 2em 0;
+  }
+
+  @media only screen and (max-width: 740px) {
+    body {
+      margin: 0;
+    font-size: 15px;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    }
+
+    .top-links {
+      display: inline-block;
+      float: right;
+      padding: 0;
+      margin: -5px 20px 5px 0;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    margin: 0;
+  font-size: 15px;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  }
+
+  .top-links {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 3px 20px 0 0;
+  }
+
+.acronym {
+  display: none;
+}
+
+.heart {
+  display: none;
+}
+
+.top-logo {
+  /* height: 20px; */
+  width: 100px;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  display: inline;
+  margin: 250px 20px 50px 20px;
+
+}
+
+.npm-logo {
+display: none;
+}
+
+.bear-logo {
+  display: none;
+  }
+
+.search-bar {
+ width: 76%;
+ height: 30px;
+  position: relative;
+  top: -45px;
+  margin-right: 0px;
+  background-color: rgb(31, 82, 111);
+  padding-left: 14px;
+  color: #ffffff;
+}
+
+.search-btn {
+  position: relative;
+  top: -44px;
+  width: 45px;
+  cursor: pointer;
+
+border: 1px solid rgb(52, 121, 156);
+border-left: none;
+background-color: rgb(39, 82, 107);
+color:  rgba(255,255,255,0.8);
+padding: 4px 8px;
+/* margin: 10px 0 0; */
+height: 38px;
+}
+
+.top-link {
+ text-decoration: none;
+ color: #ffffff;
+ margin:0 150px 0 120px;
+ position: relative;
+ top: -45px;
+ left: 10px;
+ font-size: 16px;
+}
+
+.textbutton {
+  width: 100%;
+  margin: 20px 40px 270px 1px;
+  text-align: center;
+}
+
+.textbutton h1 {
+  font-size: 20x;
+  font-family: Arial;
+  /* margin: 0 0 1em 0; */
+  display: inline;
+}
+
+.textbutton p {
+  font-size: 20px;
+  margin: 0 0 1em 0;
+}
+
+.textbutton h1, .sign-up {
+  margin-top: 10px;
+}
+
+.sign-up {
+  width: 69px;
+}
+
+.city-scape {
+  height: 400px;
+  background-image: url("https://svgshare.com/i/7jX.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -3px;
+  overflow: none;
+}
+
+.collaboration {
+  position: relative;
+  top: 395px;
+  height: 380px;
+  margin: 0 auto;
+    background-color: rgb(39, 53, 71);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: none;
+}
+
+.coll-logo {
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  overflow: none;
+ }
+ 
+ .npm-org {
+   color: #FFFFFF;
+  margin: 1px 10px 10px 10px;
+  position: relative;
+  top: -190px;
+ }
+
+ .npm-org h1 {
+display: none;
+ }
+
+ .npm-org ul > li, p {
+display: none;
+ }
+
+ .install-npm {
+   left: 0px;
+   width: 200px;
+ }
+
+ #npm-install {
+  position: absolute;
+  background-image: url("https://svgshare.com/i/7j_.svg");
+  height: 500px;
+  width: 100%;
+  top:350px;
+  margin: 470px 0 0 0;
+  overflow: none;
+  width: 100%;
+  }
+  
+  .install {
+  float: left;
+  margin: 100px 0 0 10px;
+  width: 40%;
+  color: #ffffff;
+  }
+
+  .install h1 {
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+  .but-npm {
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    background-color: rgb(49, 68, 88);
+    display: inline-block;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 6px;
+    width: 60%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 35px;
+  }
+
+  .install p {
+   display: none;
+  }
+  
+  .bottom {
+    position: relative;
+    background-color: #ffffff;
+    color:#87919c;
+    height: 550px;
+    margin: 900px 0 0 0;
+   width: 100%;
+  }
+
+  #registry {
+    padding: 1px 30px 0;
+    width: 100%;
+  }
+
+  #registry h1 {
+    width: 0 auto;
+    margin: 1px 0 2px 1px;
+    left: 10px;
+    color: rgb(83, 88, 98);
+    font-size: 20px;
+  }
+
+  #registry p {
+     display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-container > div {
+    width: 33%;
+    /* margin: 1px; */
+    text-align: center;
+    line-height: 35px;
+    font-size: 40px;
+    margin: 2em 0 2em 0;
+  }
+
+
+}
