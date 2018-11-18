@@ -1,8 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
 }
 
 .red {
   color: red;
 }
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+  border-bottom: 1px solid ##ff1a1a;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  margin-left: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: -25px 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#search {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.textbutton {
+  width: 60%;
+  margin: 0 auto;
+  background-color: grey;
+  text-align: center;
+}
+
+/* .searchbar {
+  padding-top: 50px;
+  height: 600px;
+  background-image: url(/images/city-scape.svg);
+  /* background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover; */
+} */
