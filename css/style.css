@@ -21,7 +21,8 @@ nav {
   color: rgba(255,255,255,0.8);
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid ##ff1a1a;
+  border-bottom: 1px solid #ff1a1a;
+  overflow: none;
 }
 
 nav a {
@@ -58,6 +59,7 @@ nav a {
   padding: 0px 5px 0;
   width: 100%;
   margin: 0px;
+  overflow: none
 }
 
 .textbutton {
@@ -86,7 +88,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   margin: -3px;
-  
+  overflow: none;
 }
 
 .top-logo {
@@ -189,13 +191,13 @@ height: 38px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-
+    overflow: none;
 }
 
 .coll-logo {
   width:600px;
   margin: 10em 2em 0em 24em;
- 
+  overflow: none;
  }
  
  .npm-org {
@@ -242,15 +244,53 @@ height: 38px;
 
  #npm-install {
   position: absolute;
-  background-image: url("images/collaboration.svg");
+  background-image: url("https://svgshare.com/i/7j_.svg");
   height: 500px;
   width: 100%;
-  top:1200px;
+  top:850px;
   margin: 470px 0 0 0;
+  overflow: none;
   }
   
   .install {
   float: left;
-  margin: 100px 0 0 250px;
+  margin: 100px 0 0 320px;
   width: 300px;
+  color: #ffffff;
+  }
+
+  .install h1 {
+    font-size: 40px;
+    font-family: Arial;
+    margin-left: 35px;
+  }
+
+  .but-npm {
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    background-color: rgb(49, 68, 88);
+    display: inline-block;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 6px;
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 35px;
+  }
+
+  .but-npm:hover {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: #0022CC;
+  }
+
+  .install p {
+    font-size: 21px;
+  margin: 35px 0 15px 35px;
   }
